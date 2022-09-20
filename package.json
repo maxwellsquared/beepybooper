@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "howler": "^2.2.3",
     "tone": "^14.7.77"
   }
 }

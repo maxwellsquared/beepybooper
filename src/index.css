@@ -43,12 +43,20 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   height: 60px;
+  margin:20px;
 }
 
 .note-individual {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.note-individual-on {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F4AC45;
 }
 
 .note-light {

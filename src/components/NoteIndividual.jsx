@@ -7,28 +7,15 @@ export default function NoteIndividual(props) {
     if (props.currentNote == props.rowID) return "note-light on";
     return "note-light off";
   });
-  // const noteFunction = useRef();
 
-  // useEffect(() => {
-  //   noteFunction.current = checkNote;
-  //   noteFunction.current();
-  // }, [checkNote, props]);
+  const clickNote = function() {
+    setIsOn(prev => !prev);
+    console.log("gabagool!");
+  };
 
-
-
-  // const checkNote = function() {
-  //   if (props.rowID.toString() === props.currentNote) {
-  //     setLightClass("note-light on");
-  //     setTestText("BOOP!");
-  //   };
-  //   if (props.rowID.toString() !== props.currentNote) {
-  //     setLightClass("note-light off");
-  //     setTestText("");
-  //   };
-  // };
 
   return (
-    <div className="note-individual">
+    <div className={isOn ? "note-individual-on" : "note-individual"} onClick={props.onClick} rowid={props.rowID}>
       <div className={lightClass} key={props.currentNote}></div>
       {props.rowID + 1}
     </div>
