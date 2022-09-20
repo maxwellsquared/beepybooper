@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: lores-12, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2e1e03;
+  text-shadow: 0 0 5px #F4AC45
+}
+
+nav {
+  color: #F4AC45;
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 25px;
+}
+
+.logo {
+  font-family: bd-geminis, sans-serif;
+  font-size: 45px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #F4AC45;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* 
+Cameo Pink E8B4BC
+Pink Sherbert F6839C
+Yellow Orange F4AC45
+Van Dyke Brown 5D4232
+dark brown #2e1e03
+
+*/
