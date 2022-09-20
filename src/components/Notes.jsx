@@ -5,7 +5,7 @@ export default function Notes(props) {
   const [ currentNote, setCurrentNote ] = useState(0);
   const [ hasStarted, setHasStarted ] = useState(false); 
   
-
+  // REPLACE USEEFFECT WITH CUSTOM USEINTERVAL HOOK - SEE https://overreacted.io/making-setinterval-declarative-with-react-hooks/
   // useEffect(() => {
   const startClock = function() {  
     if (hasStarted) return;
