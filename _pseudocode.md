@@ -6,6 +6,8 @@ Assuming clock is at 120bpm, every cell should display for:
 8 16th notes per second
 1 16th note = 1000 / 8 = 125 milliseconds
 
+play button
+
 create global clock with useContext
   notePosition (0-15)
   Every 125 ms:
@@ -22,7 +24,7 @@ for each note:
   If cellPosition != notePosition:
     set style to light-off
 
-2. Add effects 
+2. Add global time
 
 
 STRETCH
